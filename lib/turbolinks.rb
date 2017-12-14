@@ -8,8 +8,8 @@ module Turbolinks
     extend ActiveSupport::Concern
 
     included do
-      include Redirection
-      include Rendering
+      include Turbolinks::Redirection
+      include Turbolinks::Rendering
     end
   end
 
